@@ -1,0 +1,27 @@
+{
+  "name": "movie-crawler",
+  "version": "1.0.0",
+  "description": "Douban Top 250 Movies Crawler",
+  "main": "dist/scraper.js",
+  "scripts": {
+    "scrape": "ts-node src/scraper.ts",
+    "build": "tsc",
+    "start": "node dist/scraper.js"
+  },
+  "keywords": [
+    "crawler",
+    "puppeteer",
+    "douban"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.19.27",
+    "puppeteer": "^21.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4"
+  }
+}
